@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} fomr 'react';
+import React, {Component, PropTypes} from 'react';
 
 // Task component - represent a single todo item
 export default class Task extends Component {
