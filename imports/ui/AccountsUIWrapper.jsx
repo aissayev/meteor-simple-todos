@@ -5,7 +5,7 @@ import { Blaze } from 'meteor/blaze';
 
 export default class AccountsUIWrapper extends Component {
   componentDidMount() {
-    // Use Meter Blaze to render login buttons
+    // Use Metero Blaze to render login buttons
     this.view = Blaze.render(Template.loginButtons,
       ReactDOM.findDOMNode(this.refs.container));
   }
